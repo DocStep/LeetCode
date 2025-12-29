@@ -6,7 +6,8 @@ public class _M2402 {
         int n;
         int[][] meetings;
 
-        switch (32) {
+
+        switch (0) {
             case 2:
                 n = 2;
                 meetings = [[0, 10], [1, 5], [2, 7], [3, 4]];
@@ -52,10 +53,11 @@ public class _M2402 {
                 meetings = [[19, 20], [14, 15], [13, 14], [11, 20]];
                 break;
         }
-        
-        
 
-        int value = MostBooked(n, meetings);
+
+
+        //int value = MostBooked(n, meetings);
+        int value = 1;
 
         Console.WriteLine();
         Console.WriteLine(value);
@@ -76,76 +78,82 @@ public class _M2402 {
 
         List<int[]>[] rooms = new List<int[]>[n];
         for (int r = 0; r < n; r++) rooms[r] = new List<int[]>();
+        int[] roomsCount = new int[n];
 
         for (int m = 0; m < meetingsCount; m++) {
+            int[] meeting = meetings[m];
             Console.WriteLine($"Meeting: {meetings[m][0]}-{meetings[m][1]}");
-            checkMeetings(meetings[m]);
-            bool checkMeetings (int[] meeting) {
-                int length = meetings[m][1] - meetings[m][0];
-                int min = int.MaxValue;
-                int minR = int.MaxValue;
-                /// check All Rooms
-                for (int rL = 0; rL < n; rL++) {
-                    //bool found = false;
-                    if (rooms[rL].Count == 0) {
-                        /// empty Room
-                        if (meeting[0] < min) {
-                            min = meeting[0];
-                            minR = rL;
-                        }
-                        break;
-                    }
-                    if (Math.Max(meeting[0], rooms[rL][rooms[rL].Count-1][1]) < min) {
-                        min = Math.Max(meeting[0], rooms[rL][rooms[rL].Count-1][1]);
+            int length = meetings[m][1] - meetings[m][0];
+            int min = int.MaxValue;
+            int minR = 0;
+            int minRM = 0;
+            /// check All Rooms
+            for (int rL = 0; rL < n; rL++) {
+                //bool found = false;
+                if (rooms[rL].Count == 0) {
+                    /// empty Room
+                    if (meeting[0] < min) {
+                        min = meeting[0];
                         minR = rL;
+                        minRM = -1;
                     }
-
-                    /// check Meetings in Room
-                    for (int rM = 0; rM < rooms[rL].Count-1; rM++) {
-                        bool intersect = false;
-                        int startCheck = Math.Max(meeting[0], rooms[rL][rM][1]);
-                        for (int h = 0; h < length; h++) {
-                            Console.Write($"{rL} {rM} ");
-                            if (isMeetingsIntersect(startCheck + h, rooms[rL][rM+1])) {
-                                intersect = true;
-                                //Console.WriteLine($"Intersect({rL}) {rooms[rL][rM][0]}-{rooms[rL][rM][1]} on {rooms[rL][rM][1]}");
-                                break;
-                            }
-                        }
-                        if (isMeetingsIntersect(length + rooms[rL][rM+1][0], rooms[rL][rM+1])) {
-                            intersect = true;
-                            //Console.WriteLine($"Intersect({rL}) {rooms[rL][rM][0]}-{rooms[rL][rM][1]} on {rooms[rL][rM][1]}");
-                            break;
-                        }
-                        if (!intersect) {
-                            //Console.WriteLine($"OK({rL}) {rooms[rL][rM][0]}-{rooms[rL][rM][1]}");
-                            if (startCheck < min) {
-                                min = startCheck;
-                                minR = rL;
-                                //found = true;
-                            }
-                        }
-                        /*else {
-                            if (rooms[rL][rooms[rL].Count-1][1] < min) {
-                                min = rooms[rL][rooms[rL].Count-1][1];
-                                minR = rL;
-                            }
-                        }*/
-                    }
-                    //if (!found && rooms[rL][rooms[rL].Count-1][1] < min) {
-                    //    min = rooms[rL][rooms[rL].Count-1][1];
-                    //    minR = rL;
-                    //}
+                    break;
+                }
+                if (Math.Max(meeting[0], rooms[rL][rooms[rL].Count-1][1]) < min) {
+                    min = Math.Max(meeting[0], rooms[rL][rooms[rL].Count-1][1]);
+                    minR = rL;
+                    minRM = rooms[rL].Count-1;
                 }
 
-                int start = Math.Max(meeting[0], min);
-                int[] meetingAdd = new int[2] { start, start + length };
-                Console.WriteLine($"Min: ({minR}) {min}");
-                rooms[minR].Add(meetingAdd);
-                return false;
+                /// check Meetings in Room
+                for (int rM = 0; rM < rooms[rL].Count-1; rM++) {
+                    int startCheck = Math.Max(meeting[0], rooms[rL][rM][1]);
+                    if (rooms[rL][rM+1][0] - rooms[rL][rM][1] < length) continue;
+                    for (int h = 0; h < length; h++) {
+                        Console.Write($"{rL} {rM} ");
+                        if (isMeetingsIntersect(startCheck + h, rooms[rL][rM+1])) break;
+                    }
+                    if (isMeetingsIntersect(length + rooms[rL][rM+1][0], rooms[rL][rM+1])) {
+                        break;
+                    } else {
+                        if (startCheck < min) {
+                            min = startCheck;
+                            minR = rL;
+                            minRM = rM;
+                        }
+                    }
+                }
             }
 
-            Console.WriteLine("Counts:");
+            int start = Math.Max(meeting[0], min);
+            int end = start + length;
+            Console.WriteLine($"Min: ({minR}/{minRM}) {min}");
+            if (0 <= minRM) {
+                bool left = minRM < rooms[minR].Count && rooms[minR][minRM][1] == start;
+                bool right = minRM+1 < rooms[minR].Count && end == rooms[minR][minRM+1][0];
+                if (left && right) {
+                    rooms[minR][minRM][1] = rooms[minR][minRM+1][1];
+                    rooms[minR].RemoveAt(minRM+1);
+                } else {
+                    if (right) {
+                        rooms[minR][minRM][1] = end;
+                    } else if (right) {
+                        rooms[minR][minRM+1][0] = start;
+                    } else {
+                        addNew();
+                    }
+                }
+            } else {
+                addNew();
+            }
+
+            void addNew () {
+                int[] meetingAdd = new int[2] { start, end };
+                rooms[minR].Add(meetingAdd);
+            }
+            roomsCount[minR]++;
+
+            Console.WriteLine("Rooms:");
             for (int r = 0; r < n; r++) {
                 string s = $"({rooms[r].Count}): ";
                 for (int mm = 0; mm < rooms[r].Count; mm++)
@@ -157,11 +165,11 @@ public class _M2402 {
 
 
         int maxR = 0;
-        int max = rooms[maxR].Count;
+        int max = roomsCount[maxR];
         for (int r = 1; r < n; r++) 
-            if (max < rooms[r].Count) {
+            if (max < roomsCount[r]) {
                 maxR = r;
-                max = rooms[r].Count;
+                max = roomsCount[r];
             }
         return maxR;
 
