@@ -7,7 +7,7 @@ public class _M2402 {
         int[][] meetings;
 
 
-        switch (0) {
+        switch (32) {
             case 2:
                 n = 2;
                 meetings = [[0, 10], [1, 5], [2, 7], [3, 4]];
@@ -56,8 +56,8 @@ public class _M2402 {
 
 
 
-        //int value = MostBooked(n, meetings);
-        int value = 1;
+        int value = MostBooked(n, meetings);
+        //int value = 1;
 
         Console.WriteLine();
         Console.WriteLine(value);
@@ -108,19 +108,9 @@ public class _M2402 {
                 /// check Meetings in Room
                 for (int rM = 0; rM < rooms[rL].Count-1; rM++) {
                     int startCheck = Math.Max(meeting[0], rooms[rL][rM][1]);
-                    if (rooms[rL][rM+1][0] - rooms[rL][rM][1] < length) continue;
                     for (int h = 0; h < length; h++) {
                         Console.Write($"{rL} {rM} ");
                         if (isMeetingsIntersect(startCheck + h, rooms[rL][rM+1])) break;
-                    }
-                    if (isMeetingsIntersect(length + rooms[rL][rM+1][0], rooms[rL][rM+1])) {
-                        break;
-                    } else {
-                        if (startCheck < min) {
-                            min = startCheck;
-                            minR = rL;
-                            minRM = rM;
-                        }
                     }
                 }
             }
@@ -135,7 +125,7 @@ public class _M2402 {
                     rooms[minR][minRM][1] = rooms[minR][minRM+1][1];
                     rooms[minR].RemoveAt(minRM+1);
                 } else {
-                    if (right) {
+                    if (left) {
                         rooms[minR][minRM][1] = end;
                     } else if (right) {
                         rooms[minR][minRM+1][0] = start;
