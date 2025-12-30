@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:unfinished\\_m2402.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -43,7 +39,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "P.cs",
               "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\P.cs",
               "RelativeDocumentMoniker": "P.cs",
@@ -52,7 +48,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T02:04:53.156Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -60,24 +57,12 @@
               "Title": "_M2402.cs",
               "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M2402.cs",
               "RelativeDocumentMoniker": "UnFinished\\_M2402.cs",
-              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M2402.cs",
-              "RelativeToolTip": "UnFinished\\_M2402.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAiwH8AAAAfAAAAAAAAAA==",
+              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M2402.cs*",
+              "RelativeToolTip": "UnFinished\\_M2402.cs*",
+              "ViewState": "AgIAADoAAAAAAAAAAAAiwFEAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T10:04:36.609Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "README.md",
-              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-12-27T06:32:35.242Z"
             }
           ]
         }
