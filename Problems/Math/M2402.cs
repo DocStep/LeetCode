@@ -1,7 +1,7 @@
 ﻿namespace P2402;
 
 /// 2402. Meeting Rooms III
-public class _M2402 {
+public class M2402 {
     public void Test () {
         int n;
         int[][] meetings;
@@ -70,27 +70,25 @@ public class _M2402 {
         int value = MostBooked(n, meetings);
         //int value = 1;
 
-        Console.WriteLine();
         Console.WriteLine(value);
     }
 
 
     public int MostBooked (int n, int[][] meetings) {
-        int meetingsCount = meetings.GetLength(0);
         Array.Sort(meetings, (a, b) => a[0].CompareTo(b[0]));
 
         long[] roomsBusyTime = new long[n];
-        int[] roomsCount = new int[n];
+        int[] roomsCounts = new int[n];
 
+        /// Check All Meetings
+        int meetingsCount = meetings.GetLength(0);
         for (int m = 0; m < meetingsCount; m++) {
             int[] meeting = meetings[m];
-            Console.WriteLine($"Meeting: {meetings[m][0]}-{meetings[m][1]}");
-            int length = meetings[m][1] - meetings[m][0];
             long minStart = long.MaxValue;
             int minR = 0;
-            /// check All Rooms
+
+            /// Check All Rooms
             for (int rL = 0; rL < n; rL++) {
-                Console.WriteLine($"({roomsCount[rL]}) {roomsBusyTime[rL]} ?");
                 long meetingStartClipped = Math.Max(meeting[0], roomsBusyTime[rL]);
                 if (meetingStartClipped < minStart) {
                     minStart = meetingStartClipped;
@@ -98,32 +96,19 @@ public class _M2402 {
                 }
             }
 
-            long startClipped = Math.Max(meeting[0], minStart);
-            long endClipped = startClipped + length;
-            Console.WriteLine($"Min: {minR} ({roomsCount[minR]}) {endClipped} <-{length} [{startClipped}-{endClipped})");
-
-            roomsBusyTime[minR] = endClipped;
-            roomsCount[minR]++;
-
-            Console.WriteLine("Rooms:");
-            for (int r = 0; r < n; r++) {
-                string s = $"({roomsCount[r]}) {roomsBusyTime[r]}";
-                Console.WriteLine(s);
-            }
-            Console.WriteLine();
+            roomsBusyTime[minR] = Math.Max(meeting[0], minStart) + meeting[1] - meeting[0];
+            roomsCounts[minR]++;
         }
 
-        //Console.WriteLine();
-        int maxR = 0;
         int max = 0;
+        int maxR = 0;
         for (int r = 0; r < n; r++) {
-            Console.WriteLine(roomsCount[r]);
-            if (max < roomsCount[r]) {
+            if (max < roomsCounts[r]) {
+                max = roomsCounts[r];
                 maxR = r;
-                max = roomsCount[r];
             }
         }
-        //Console.WriteLine($"longs {longCount}");
+
         return maxR;
     }
 

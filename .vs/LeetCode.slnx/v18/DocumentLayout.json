@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\_workspace\\VS\\_LeetCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\unfinished\\_m2402.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:unfinished\\_m2402.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\problems\\math\\m2402.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:problems\\math\\m2402.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,7 +35,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T01:11:22.046Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -53,12 +54,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_M2402.cs",
-              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M2402.cs",
-              "RelativeDocumentMoniker": "UnFinished\\_M2402.cs",
-              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M2402.cs",
-              "RelativeToolTip": "UnFinished\\_M2402.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAiwGoAAAAAAAAAAAAAAA==",
+              "Title": "M2402.cs",
+              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\Problems\\Math\\M2402.cs",
+              "RelativeDocumentMoniker": "Problems\\Math\\M2402.cs",
+              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\Problems\\Math\\M2402.cs",
+              "RelativeToolTip": "Problems\\Math\\M2402.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T10:04:36.609Z",
               "EditorCaption": ""
