@@ -1,4 +1,6 @@
-﻿public class _M1937 {
+﻿/// 1937. 
+
+public class _M1937 {
     public int Test () {
 
         Console.WriteLine();

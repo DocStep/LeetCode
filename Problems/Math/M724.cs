@@ -1,6 +1,5 @@
-﻿namespace P724;
+﻿/// 724. Find Pivot Index
 
-/// 724. Find Pivot Index
 public class M724 {
     public void Test () {
         int[] nums = { 1, 7, 3, 6, 5, 6 };

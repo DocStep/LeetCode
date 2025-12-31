@@ -1,6 +1,5 @@
-﻿namespace P931;
+﻿/// 931. Minimum Falling Path Sum
 
-/// 931. Minimum Falling Path Sum
 public class M931_Tree {
     public void Test () {
         int[][] matrix;

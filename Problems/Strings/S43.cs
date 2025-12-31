@@ -1,6 +1,5 @@
-﻿namespace P43;
+﻿/// 43. Multiply Strings
 
-/// 43. Multiply Strings
 public class S43 {
     public void Test () {
         string num1 = "65539";

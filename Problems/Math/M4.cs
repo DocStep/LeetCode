@@ -1,6 +1,5 @@
-﻿namespace P4;
+﻿/// 4. Median of Two Sorted Arrays
 
-/// 4. Median of Two Sorted Arrays
 public class M4 {
     public void Test () {
 

@@ -1,6 +1,5 @@
-﻿namespace P2;
+﻿/// 2. Add Two Numbers
 
-/// 2. Add Two Numbers
 public class M2 {
     public ListNode AddTwoNumbers (ListNode l1, ListNode l2) {
 

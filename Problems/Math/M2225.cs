@@ -1,6 +1,5 @@
-﻿namespace P2225;
+﻿/// 2225. Find Players With Zero or One Losses
 
-/// 2225. Find Players With Zero or One Losses
 public class M2225 {
     public void Test () {
         int[][] matches;

@@ -1,6 +1,5 @@
-﻿namespace P7;
+﻿/// 7. Reverse Integer
 
-/// 7. Reverse Integer
 public class S7 {
     public void Test () {
         int x = 123;

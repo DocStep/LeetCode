@@ -1,6 +1,5 @@
-﻿namespace P121;
+﻿/// 121. Best Time to Buy and Sell Stock
 
-/// 121. Best Time to Buy and Sell Stock
 public class M121 {
     public void Test () {
 

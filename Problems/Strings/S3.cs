@@ -1,6 +1,5 @@
-﻿namespace P3;
+﻿/// 3. Longest Substring Without Repeating Characters
 
-/// 3. Longest Substring Without Repeating Characters
 public class S3 {
     public void Test () {
         this.s = "pwwkew";

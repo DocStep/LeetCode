@@ -1,6 +1,5 @@
-﻿namespace P1657;
+﻿/// 1657. Determine if Two Strings Are Close
 
-/// 1657. Determine if Two Strings Are Close
 public class S1657 {
     public void Test () {
         string word1 = "aaabbbbccddeeeeefffff"; // a3 b4 c2 d2 e5 f5  2 2 3 4 5 5

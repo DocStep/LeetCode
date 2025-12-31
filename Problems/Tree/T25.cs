@@ -1,6 +1,5 @@
-﻿namespace P25;
+﻿/// 25. Reverse Nodes in k-Group
 
-/// 25. Reverse Nodes in k-Group
 public class T25 {
     public void Test () {
         ListNode head;

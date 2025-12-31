@@ -1,4 +1,4 @@
-﻿namespace P50_1;
+﻿/// 50. (Alt)
 
 public class _M50_1 {
     public void Test () {

@@ -1,6 +1,5 @@
-﻿namespace P938;
+﻿/// 938. Range Sum of BST
 
-/// 938. Range Sum of BST
 public class T938 {
     public void Test () {
 

@@ -1,6 +1,5 @@
-﻿namespace P2402;
+﻿/// 2402. Meeting Rooms III
 
-/// 2402. Meeting Rooms III
 public class M2402 {
     public void Test () {
         int n;

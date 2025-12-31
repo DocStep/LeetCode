@@ -1,6 +1,5 @@
-﻿namespace P20;
+﻿/// 20. Valid Parentheses
 
-/// 20. Valid Parentheses
 public class S20 {
     public void Test () {
 

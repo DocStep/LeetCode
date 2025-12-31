@@ -1,6 +1,5 @@
-﻿namespace P1492;
+﻿/// 1492. The kth Factor of n
 
-/// 1492. The kth Factor of n
 public class M1492_xcpu {
     public void Test () {
         int n = 12;

@@ -1,6 +1,5 @@
-﻿namespace P703;
+﻿/// 703. Kth Largest Element in a Stream
 
-/// 703. Kth Largest Element in a Stream
 public class M703 {
     public void Test () {
         //KthLargest kth = new KthLargest(3, new int[] { 4, 5, 8, 2 });

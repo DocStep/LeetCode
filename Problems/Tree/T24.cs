@@ -1,6 +1,5 @@
-﻿namespace P24;
+﻿/// 24. Swap Nodes in Pairs
 
-/// 24. Swap Nodes in Pairs
 public class T24 {
     public void Test () {
         ListNode head;

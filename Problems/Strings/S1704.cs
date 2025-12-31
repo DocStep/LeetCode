@@ -1,6 +1,5 @@
-﻿namespace P1704;
+﻿/// 1704. Determine if String Halves Are Alike
 
-/// 1704. Determine if String Halves Are Alike
 public class S1704 {
     public void Test () {
         string s = "01234";

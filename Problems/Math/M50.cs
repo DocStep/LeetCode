@@ -1,6 +1,5 @@
-﻿namespace P50;
+﻿/// 50. Pow(x, n)
 
-/// 50. Pow(x, n)
 public class M50 {
     public double Test () {
         double x = 2.00000;

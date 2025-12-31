@@ -1,6 +1,5 @@
-﻿namespace P1207;
+﻿/// 1207. Unique Number of Occurrences
 
-/// 1207. Unique Number of Occurrences
 public class M1207 {
     public void Test () {
         int[] arr = new int[] { 1, 2, 2, 1, 1, 3 };

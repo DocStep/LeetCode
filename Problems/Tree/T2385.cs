@@ -1,6 +1,5 @@
-﻿namespace P2385;
+﻿/// 2385. Amount of Time for Binary Tree to Be Infected
 
-/// 2385. Amount of Time for Binary Tree to Be Infected
 public class T2385 {
     public void Test () {
         TreeNode root = null;

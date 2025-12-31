@@ -1,6 +1,5 @@
-﻿namespace P1;
+﻿/// 1. Two Sum
 
-/// 1. Two Sum
 public class M1 {
     public void Test () {
 

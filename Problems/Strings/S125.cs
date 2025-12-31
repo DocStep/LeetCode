@@ -1,6 +1,5 @@
-﻿namespace P125;
+﻿/// 125. Valid Palindrome
 
-/// 125. Valid Palindrome
 public class S125 {
     public void Test () {
 

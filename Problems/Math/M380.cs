@@ -1,6 +1,5 @@
-﻿namespace P380;
+﻿/// 380. Insert Delete GetRandom O(1)
 
-/// 380. Insert Delete GetRandom O(1)
 public class M380 {
     public void Test () {
         int val = 1;

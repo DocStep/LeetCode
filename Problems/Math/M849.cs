@@ -1,6 +1,5 @@
-﻿namespace P849;
+﻿/// 849. Maximize Distance to Closest Person
 
-/// 849. Maximize Distance to Closest Person
 public class M849 {
     public void Test () {
         int[] seats;

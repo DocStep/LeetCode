@@ -1,6 +1,5 @@
-﻿namespace P1493;
+﻿/// 1493. Longest Subarray of 1's After Deleting One Element
 
-/// 1493. Longest Subarray of 1's After Deleting One Element
 public class S1493 {
     public void Test () {
         int[] nums;

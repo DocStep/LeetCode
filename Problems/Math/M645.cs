@@ -1,6 +1,5 @@
-﻿namespace P645;
+﻿/// 645. Set Mismatch
 
-/// 645. Set Mismatch
 public class M645 {
     public void Test () {
         int[] nums = new int[] { 1, 2, 2, 4 };

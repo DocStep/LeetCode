@@ -1,6 +1,5 @@
-﻿namespace P2405;
+﻿/// 2405. Optimal Partition of String
 
-/// 2405. Optimal Partition of String
 public class S2405 {
     public void Test () {
         string s = "abacaba";

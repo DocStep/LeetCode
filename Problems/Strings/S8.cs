@@ -1,6 +1,5 @@
-﻿namespace P8;
+﻿/// 8. String to Integer (atoi)
 
-/// 8. String to Integer (atoi)
 public class S8 {
     public void Test () {
         string s = "+-42";

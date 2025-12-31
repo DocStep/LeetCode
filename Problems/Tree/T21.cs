@@ -1,6 +1,5 @@
-﻿namespace P21;
+﻿/// 21.Merge Two Sorted Lists
 
-/// 21.Merge Two Sorted Lists
 public class T21 {
     public void Test () {
         ListNode list1;

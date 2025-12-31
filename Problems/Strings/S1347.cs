@@ -1,6 +1,5 @@
-﻿namespace P1347;
+﻿/// 1347. Minimum Number of Steps to Make Two Strings Anagram
 
-/// 1347. Minimum Number of Steps to Make Two Strings Anagram
 public class S1347 {
     public void Test () {
         string s = "leetcode"; /// etc leeod

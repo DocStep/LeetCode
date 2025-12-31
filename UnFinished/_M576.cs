@@ -1,6 +1,5 @@
-﻿namespace P576;
+﻿/// 576. Out of Boundary Paths
 
-/// 576. Out of Boundary Paths
 public class _M576 {
     public void Test () {
         int m;

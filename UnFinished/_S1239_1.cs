@@ -1,6 +1,5 @@
-﻿namespace P1239;
+﻿/// 1239. Maximum Length of a Concatenated String with Unique Characters
 
-/// 1239. Maximum Length of a Concatenated String with Unique Characters
 public class _S1239_1 {
     public void Test () {
         IList<string> arr;
