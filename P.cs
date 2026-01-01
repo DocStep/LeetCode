@@ -1,11 +1,13 @@
-﻿namespace Problem;
+﻿/// . 
 
-/// . 
-public class Problem {
+public class P {
     public void Test () {
 
 
         Console.WriteLine();
     }
+
+
+
 
 }

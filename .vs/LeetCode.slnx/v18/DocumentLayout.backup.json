@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\_workspace\\VS\\_LeetCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\unfinished\\_m904.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:unfinished\\_m904.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\unfinished\\_m66.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:unfinished\\_m66.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:problem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\lib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:lib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:p.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|d:\\_workspace\\vs\\_leetcode\\problems\\math\\m904.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F5B46BC-92AE-86EA-58FE-D862BB035AE2}|LeetCode.csproj|solutionrelative:problems\\math\\m904.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -32,20 +40,21 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T01:11:22.046Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Problem.cs",
-              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\Problem.cs",
-              "RelativeDocumentMoniker": "Problem.cs",
-              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\Problem.cs",
-              "RelativeToolTip": "Problem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "P.cs",
+              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\P.cs",
+              "RelativeDocumentMoniker": "P.cs",
+              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\P.cs",
+              "RelativeToolTip": "P.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T02:04:53.156Z",
               "IsPinned": true,
@@ -53,13 +62,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lib.cs",
+              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\lib.cs",
+              "RelativeDocumentMoniker": "lib.cs",
+              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\lib.cs",
+              "RelativeToolTip": "lib.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:47:03.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_M904.cs",
-              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M904.cs",
-              "RelativeDocumentMoniker": "UnFinished\\_M904.cs",
-              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M904.cs",
-              "RelativeToolTip": "UnFinished\\_M904.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAADwv0MAAAAOAAAAAAAAAA==",
+              "Title": "_M66.cs",
+              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M66.cs",
+              "RelativeDocumentMoniker": "UnFinished\\_M66.cs",
+              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\UnFinished\\_M66.cs*",
+              "RelativeToolTip": "UnFinished\\_M66.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T00:44:23.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "M904.cs",
+              "DocumentMoniker": "D:\\_workspace\\VS\\_LeetCode\\Problems\\Math\\M904.cs",
+              "RelativeDocumentMoniker": "Problems\\Math\\M904.cs",
+              "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\Problems\\Math\\M904.cs",
+              "RelativeToolTip": "Problems\\Math\\M904.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-31T05:03:01.691Z",
               "EditorCaption": ""
