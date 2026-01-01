@@ -43,8 +43,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T01:11:22.046Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -57,8 +56,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-27T02:04:53.156Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -70,8 +68,7 @@
               "RelativeToolTip": "lib.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T00:47:03.034Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-01T00:47:03.034Z"
             },
             {
               "$type": "Document",
@@ -81,7 +78,7 @@
               "RelativeDocumentMoniker": "Problems\\Math\\M66.cs",
               "ToolTip": "D:\\_workspace\\VS\\_LeetCode\\Problems\\Math\\M66.cs",
               "RelativeToolTip": "Problems\\Math\\M66.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-01T00:44:23.23Z",
               "EditorCaption": ""
@@ -96,8 +93,7 @@
               "RelativeToolTip": "Problems\\Math\\M904.cs",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-31T05:03:01.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-31T05:03:01.691Z"
             }
           ]
         }

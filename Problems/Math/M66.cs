@@ -16,7 +16,7 @@ public class M66 {
         digits = PlusOne(digits);
 
         for (int l = 0; l < digits.Length; l++)
-            Console.WriteLine(digits[l]);
+            Console.Write(digits[l]);
     }
 
 
@@ -32,15 +32,13 @@ public class M66 {
                 add = false;
             }
         }
-        if (add) digits = Prepend(digits, 1);
-        return digits;
-
-        int[] Prepend (int[] arr, int value) {
-            int[] result = new int[arr.Length + 1];
-            result[0] = value;
-            Array.Copy(arr, 0, result, 1, arr.Length);
-            return result;
+        if (add) {
+            int[] result = new int[digits.Length + 1];
+            result[0] = 1;
+            Array.Copy(digits, 0, result, 1, length);
+            digits = result;
         }
+        return digits;
     }
 
 }
